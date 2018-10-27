@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="signup-h1"><h1 class="h1"><span class="span">Signup</span> Form</h1></div>
+		<div class="my-form">
+			<div class="my-form-center">		
+				<form id="form1" action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="POST">
+					<div class="first-last-name">
+						<input class="first-name input" name="surname" type="text" placeholder="First Name">
+						<input class="last-name input" name="last-name" type="text" placeholder="Last Name">
+					</div>
+					<div class="input-box">
+						<input class="username input" name="username" type="text" placeholder="Username">
+					</div>
+					<div class="input-box">
+						<input class="email input" name="email" type="email" placeholder="Email Addres">
+					</div>
+					<div class="input-box">
+						<input class="password input" name="password" type="password" placeholder="Password">
+					</div>
+					<div class="input-box">
+						<input class="checkbox" name="checkbox" type="checkbox" id="checkbox">
+						<label class="text-p" for="checkbox">I Agree to the <a class="link" href="#">terms of use</a></label>
+					</div>
+					<div class="button-box box">
+						<button class="button" type="submit" value="Submit" for="form1">Sign Up</button>
+					</div>
+					<div>
+						<p class="text-p box">Have an account with us? <a class="link" href="#">Login here</a></p>
+					</div>
+					<div>						
+						<p class="overflow text-p box">More info about us here More info about us here</p>
+					</div>
+				</form>
+			</div>	
+		</div>
+	</div>
+</body>
+</html>
