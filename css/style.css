@@ -92,7 +92,7 @@ body {
 }
 
 .first-name {
-    float: left;
+        float: left;
 }
 
 .last-name{
@@ -183,6 +183,6 @@ body {
 	width: 124px;
 	height: 24px;
 	text-overflow: ellipsis;
-    overflow: hidden;
+    	overflow: hidden;
 	white-space: nowrap;
 }
