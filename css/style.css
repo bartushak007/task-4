@@ -1,13 +1,19 @@
 
 @import url(https://fonts.googleapis.com/css?family=Roboto);
+
+
 *{
 	box-sizing: border-box;
 }
+
+
 body{
 	margin: 0;
 	padding: 0;
 	font-family: 'Roboto', sans-serif;
 }
+
+
 .wrapper{
 	position: fixed;
 	transform: translateX(-50%) translateY(-50%);
@@ -18,10 +24,13 @@ body{
 	background: #f7f7f7;
 }
 
+
 .my-form{
 	height: 349px;
 	box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
+
+
 .my-form,
 .signup-h1{
 	width: 340px;	
@@ -29,35 +38,50 @@ body{
 	background: #ffffff;
 	border-radius: 7px; 	
 }
+
+
 .my-form-center{
 	width: 285px;
 	margin: 0 auto;
-
 }
+
+
 .signup-h1{
 	background: #f7f7f7;
 }
+
+
 .h1{
 	margin: 0 0 16px 0;
 	padding-top: 50px;
 	font-size: 22px;
 	color: #949494;
 }
+
+
 .span{
 	
 	color: #707070;
 }
+
+
 .first-last-name{
 	padding-top: 30px;
 }
+
+
 .first-last-name:after{
 	content: "";
 	display: block;
 	clear: both;
 }
+
+
 .input-box{
 	margin-top: 13px;
 }
+
+
 .input{
 	font-size: 14px;
 	padding-left: 9px;
@@ -68,17 +92,25 @@ body{
 	border: 0;
 	border-radius: 3px; 
 }
+
+
 .first-name,
 .last-name{
 	width: 128px;
 	height: 34px;
 }
+
+
 .first-name{
     float: left;
 }
+
+
 .last-name{
 	float: right;
 }
+
+
 .username,
 .password{
 	background-image: url(../images/pic.png);
@@ -86,29 +118,43 @@ body{
 	background-position: 97%;
 	padding-right: 40px;
 }
+
+
 .password{
 	background-image: url(../images/lock.png);	
 }
+
+
 .text-p{
 	font-size: 11px;
 	color: #b7b7b7;
 }
+
+
 .link{
 	text-decoration: none;
 	color: #9b9b9b;
 }
+
+
 .button-box{
 	margin-top: 18px; 
 	text-align: center;		
 }
+
+
 .box{
 	text-align: center;
 }
+
+
 .checkbox{
 	width: 10px;
 	height: 10px;	
 	position: relative;
 }
+
+
 .checkbox:before{
 	content: "";
 	display: block;
@@ -119,11 +165,15 @@ body{
 	border-radius: 0;
 	background: #f0f0f0;
 }
+
+
 .checkbox:checked:after{
 	content: url(../images/checked.png);
 	position: absolute;	
 	bottom: -2.9px;
 }
+
+
 .button{
 	cursor: pointer;
 	background: #fea15d;
@@ -136,12 +186,17 @@ body{
 	margin-bottom: 20px; 
 	transition: 0.5s;
 }
+
+
 .button:hover{
 	opacity: 0.7;
 }
+
+
 .text-p{
 	margin: 0;
 }
+
 
 .overflow{
 	margin: 3px auto 0;
@@ -150,5 +205,4 @@ body{
 	text-overflow: ellipsis;
     overflow: hidden;
 	white-space: nowrap;
-
 }
